@@ -1,0 +1,69 @@
+{
+  "name": "puppet-mosquitto",
+  "version": "0.1.0",
+  "author": "Vox Pupuli",
+  "summary": "installs, configures, and manages the Eclipse Mosquitto daemon",
+  "license": "AGPL-3.0",
+  "source": "https://github.com/voxpupuli/puppet-mosquitto",
+  "project_page": "https://github.com/voxpupuli/puppet-mosquitto",
+  "issues_url": "https://github.com/voxpupuli/puppet-mosquitto/issues",
+  "description": "This is a nice module to manage Eclipse mosquitto",
+  "dependencies": [
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 6.3.0 < 7.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Archlinux"
+    },
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    },
+    {
+      "operatingsystem": "Fedora",
+      "operatingsystemrelease": [
+        "31",
+        "32"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04",
+        "18.04",
+        "20.04"
+      ]
+    },
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "9",
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "FreeBSD",
+      "operatingsystemrelease": [
+        "11",
+        "12"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 5.5.8 < 7.0.0"
+    }
+  ]
+}
