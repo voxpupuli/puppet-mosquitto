@@ -73,6 +73,14 @@ wether the service should be in autostart or not
 
 Default value: `true`
 
+##### `config`
+
+Data type: `Array[String[1]]`
+
+list of config options for Mosquitto
+
+Default value: []
+
 ##### `service_ensure`
 
 Data type: `Stdlib::Ensure::Service`
