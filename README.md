@@ -6,6 +6,7 @@
 [![Puppet Forge - downloads](https://img.shields.io/puppetforge/dt/puppet/mosquitto.svg)](https://forge.puppetlabs.com/puppet/mosquitto)
 [![Puppet Forge - endorsement](https://img.shields.io/puppetforge/e/puppet/mosquitto.svg)](https://forge.puppetlabs.com/puppet/mosquitto)
 [![Puppet Forge - scores](https://img.shields.io/puppetforge/f/puppet/mosquitto.svg)](https://forge.puppetlabs.com/puppet/mosquitto)
+[![AGPL v3 License](https://img.shields.io/github/license/voxpupuli/puppet-mosquitto.svg)](LICENSE)
 
 ## ToC
 
