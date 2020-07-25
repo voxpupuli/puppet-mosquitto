@@ -11,7 +11,7 @@
 #
 # @author Tim Meusel <tim@bastelfreak.de>
 #
-class mosquitto  (
+class mosquitto (
   Boolean $manage_package                             = true,
   Boolean $manage_service                             = true,
   Enum['latest', 'absent', 'present'] $package_ensure = 'present',
@@ -21,7 +21,6 @@ class mosquitto  (
   String[1] $service_name                             = 'mosquitto',
   Array[String[1]] $config                            = [],
 ) {
-
   contain mosquitto::install
   contain mosquitto::config
   contain mosquitto::service
