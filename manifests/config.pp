@@ -7,12 +7,11 @@
 #
 class mosquitto::config (
   Array[String[1]] $config = $mosquitto::config,
-){
-
+) {
   assert_private()
 
-  file{'/etc/mosquitto/mosquitto.conf':
+  file { '/etc/mosquitto/mosquitto.conf':
     ensure  => 'file',
-    content => epp("${module_name}/mosquitto.conf", { 'config' => $config}),
+    content => epp("${module_name}/mosquitto.conf", { 'config' => $config }),
   }
 }

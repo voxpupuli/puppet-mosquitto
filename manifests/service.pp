@@ -11,11 +11,10 @@ class mosquitto::service (
   Boolean $enable = $mosquitto::service_enable,
   String[1] $service_name = $mosquitto::service_name,
 ) {
-
   assert_private()
 
   if $manage_service {
-    service{'mosquitto':
+    service { 'mosquitto':
       ensure => $ensure,
       name   => $service_name,
       enable => $enable,
