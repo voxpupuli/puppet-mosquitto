@@ -26,11 +26,11 @@ include mosquitto
 All parameters are documented in the REFERENCE.md. You can pass configuration options with:
 
 ```puppet
-class{'mosquitto:
+class { 'mosquitto:
   config => [
-  'acl_file foobar.acl',
-  'bridge_insecure false',
-  ]
+    'acl_file foobar.acl',
+    'bridge_insecure false',
+  ],
 }
 ```
 
