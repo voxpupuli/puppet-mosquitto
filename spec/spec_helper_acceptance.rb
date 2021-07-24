@@ -12,5 +12,4 @@ configure_beaker do |host|
   else
     host.install_package('iproute')
   end
-
 end
