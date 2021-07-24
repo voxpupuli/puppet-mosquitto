@@ -5,6 +5,7 @@
 # @param manage_service Boolean to enable/disable service handling
 # @param package_ensure ensure attribute for the package resource
 # @param package_name Name of the Mosquitto package
+# @param service_ensure the desired state of the service
 # @param service_name Name of the Mosquitto service
 # @param service_enable wether the service should be in autostart or not
 # @param config list of config options for Mosquitto

@@ -8,7 +8,7 @@ describe 'mosquitto' do
       PUPPET
     end
 
-    it "runs successfully" do
+    it 'runs successfully' do
       # Apply twice to ensure no errors the second time.
       apply_manifest(pp, catch_failures: true)
       apply_manifest(pp, catch_changes: true)

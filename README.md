@@ -1,11 +1,12 @@
 # Mosquitto module for Puppet
 
-[![Build Status](https://travis-ci.org/voxpupuli/puppet-mosquitto.png?branch=master)](https://travis-ci.org/voxpupuli/puppet-mosquitto)
-[![Code Coverage](https://coveralls.io/repos/github/voxpupuli/puppet-mosquitto/badge.svg?branch=master)](https://coveralls.io/github/voxpupuli/puppet-mosquitto)
+[![Build Status](https://github.com/voxpupuli/puppet-mosquitto/workflows/CI/badge.svg)](https://github.com/voxpupuli/puppet-mosquitto/actions?query=workflow%3ACI)
+[![Release](https://github.com/voxpupuli/puppet-mosquitto/actions/workflows/release.yml/badge.svg)](https://github.com/voxpupuli/puppet-mosquitto/actions/workflows/release.yml)
 [![Puppet Forge](https://img.shields.io/puppetforge/v/puppet/mosquitto.svg)](https://forge.puppetlabs.com/puppet/mosquitto)
 [![Puppet Forge - downloads](https://img.shields.io/puppetforge/dt/puppet/mosquitto.svg)](https://forge.puppetlabs.com/puppet/mosquitto)
 [![Puppet Forge - endorsement](https://img.shields.io/puppetforge/e/puppet/mosquitto.svg)](https://forge.puppetlabs.com/puppet/mosquitto)
 [![Puppet Forge - scores](https://img.shields.io/puppetforge/f/puppet/mosquitto.svg)](https://forge.puppetlabs.com/puppet/mosquitto)
+[![puppetmodule.info docs](http://www.puppetmodule.info/images/badge.png)](http://www.puppetmodule.info/m/puppet-mosquitto)
 [![AGPL v3 License](https://img.shields.io/github/license/voxpupuli/puppet-mosquitto.svg)](LICENSE)
 
 ## ToC
