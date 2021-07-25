@@ -4,6 +4,26 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v1.0.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v1.0.0) (2021-07-24)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v0.1.0...v1.0.0)
+
+**Implemented enhancements:**
+
+- Puppet 7 and fix iproute2 on Ubuntu/Debian acceptance tests [\#9](https://github.com/voxpupuli/puppet-mosquitto/pull/9) ([ehelms](https://github.com/ehelms))
+
+**Fixed bugs:**
+
+- start service only if network is really up [\#12](https://github.com/voxpupuli/puppet-mosquitto/pull/12) ([bastelfreak](https://github.com/bastelfreak))
+
+**Merged pull requests:**
+
+- puppetlabs/stdlib: Allow 7.x [\#14](https://github.com/voxpupuli/puppet-mosquitto/pull/14) ([bastelfreak](https://github.com/bastelfreak))
+- require at least Puppet 6.1 [\#13](https://github.com/voxpupuli/puppet-mosquitto/pull/13) ([bastelfreak](https://github.com/bastelfreak))
+- Fix style in README [\#8](https://github.com/voxpupuli/puppet-mosquitto/pull/8) ([ghoneycutt](https://github.com/ghoneycutt))
+- Add a basic acceptance test [\#7](https://github.com/voxpupuli/puppet-mosquitto/pull/7) ([ehelms](https://github.com/ehelms))
+- modulesync 3.0.0 & puppet-lint updates [\#4](https://github.com/voxpupuli/puppet-mosquitto/pull/4) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [v0.1.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v0.1.0) (2020-06-27)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/c3e3912ab92ff3ee3de9bf9960ab021bac107b96...v0.1.0)
