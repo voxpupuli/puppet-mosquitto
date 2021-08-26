@@ -4,7 +4,16 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
-## [v1.0.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v1.0.0) (2021-07-24)
+## [v1.0.1](https://github.com/voxpupuli/puppet-mosquitto/tree/v1.0.1) (2021-08-26)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v1.0.0...v1.0.1)
+
+**Merged pull requests:**
+
+- Allow stdlib 8.0.0 [\#17](https://github.com/voxpupuli/puppet-mosquitto/pull/17) ([smortex](https://github.com/smortex))
+- Use a shared example in acceptance testing [\#16](https://github.com/voxpupuli/puppet-mosquitto/pull/16) ([ekohl](https://github.com/ekohl))
+
+## [v1.0.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v1.0.0) (2021-07-25)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v0.1.0...v1.0.0)
 
