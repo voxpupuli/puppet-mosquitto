@@ -3,10 +3,6 @@
 
 source ENV['GEM_SOURCE'] || "https://rubygems.org"
 
-# as a test, pull in gettext-setup from master
-# it allows newer fast_gettext versions
-gem 'gettext-setup', git: 'https://github.com/puppetlabs/gettext-setup-gem', branch: 'master', require: false
-
 group :test do
   gem 'voxpupuli-test', '~> 2.5',   :require => false
   gem 'coveralls',                  :require => false
