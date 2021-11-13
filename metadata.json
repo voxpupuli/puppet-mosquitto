@@ -8,6 +8,11 @@
   "project_page": "https://github.com/voxpupuli/puppet-mosquitto",
   "issues_url": "https://github.com/voxpupuli/puppet-mosquitto/issues",
   "description": "This is a nice module to manage Eclipse mosquitto",
+  "tags": [
+    "mosquitto",
+    "mqtt",
+    "broker"
+  ],
   "dependencies": [
     {
       "name": "puppetlabs/stdlib",
