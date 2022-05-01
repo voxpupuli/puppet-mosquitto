@@ -54,4 +54,4 @@ Detailed information about the test setup and contributions are in the CONTRIBUT
 
 ## Authors
 
-puppet-mosquitto is maintained by [Vox Pupuli](https://voxpupuli.org), it was written by [Tim 'bastelfreak' Meusel](https://github.com/bastelfreak).
+puppet-mosquitto is maintained by [Vox Pupuli](https://voxpupuli.org), it was written by [Tim 'bastelfreak' Meusel](https://github.com/bastelfreak). FreeBSD tweaks by Seth Tunstall
