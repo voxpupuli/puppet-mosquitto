@@ -11,7 +11,7 @@ class mosquitto::config (
   assert_private()
 
   file { '/etc/mosquitto/mosquitto.conf':
-    ensure  => 'file',
+    ensure  => bool2str($mosquitto::package_ensure == 'absent', 'absent', 'file'),
     content => epp("${module_name}/mosquitto.conf", { 'config' => $config }),
   }
 }
