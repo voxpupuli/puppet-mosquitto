@@ -28,6 +28,7 @@ class mosquitto::service (
       | EOT
 
     systemd::dropin_file { 'mosquitto-override.conf':
+      ensure         => bool2str($ensure == 'running', 'present', 'absent'),
       unit           => 'mosquitto.service',
       content        => $content,
       notify_service => true,
