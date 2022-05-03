@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v1.1.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v1.1.0) (2022-05-03)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v1.0.2...v1.1.0)
+
+**Implemented enhancements:**
+
+- Add Debian 11 support [\#11](https://github.com/voxpupuli/puppet-mosquitto/pull/11) ([bastelfreak](https://github.com/bastelfreak))
+
+**Fixed bugs:**
+
+- don't try to create config and systemd dropin for ensure absent [\#25](https://github.com/voxpupuli/puppet-mosquitto/pull/25) ([evgeni](https://github.com/evgeni))
+
 ## [v1.0.2](https://github.com/voxpupuli/puppet-mosquitto/tree/v1.0.2) (2021-11-13)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v1.0.1...v1.0.2)
