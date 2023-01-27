@@ -26,32 +26,32 @@ Puppet module to manage the Eclipe Mosquitto MQTT server
 
 The following parameters are available in the `mosquitto` class:
 
-* [`manage_package`](#manage_package)
-* [`manage_service`](#manage_service)
-* [`package_ensure`](#package_ensure)
-* [`package_name`](#package_name)
-* [`service_ensure`](#service_ensure)
-* [`service_name`](#service_name)
-* [`service_enable`](#service_enable)
-* [`config`](#config)
+* [`manage_package`](#-mosquitto--manage_package)
+* [`manage_service`](#-mosquitto--manage_service)
+* [`package_ensure`](#-mosquitto--package_ensure)
+* [`package_name`](#-mosquitto--package_name)
+* [`service_ensure`](#-mosquitto--service_ensure)
+* [`service_name`](#-mosquitto--service_name)
+* [`service_enable`](#-mosquitto--service_enable)
+* [`config`](#-mosquitto--config)
 
-##### <a name="manage_package"></a>`manage_package`
+##### <a name="-mosquitto--manage_package"></a>`manage_package`
 
 Data type: `Boolean`
 
 Boolean to enable/disable package handling
 
-Default value: ``true``
+Default value: `true`
 
-##### <a name="manage_service"></a>`manage_service`
+##### <a name="-mosquitto--manage_service"></a>`manage_service`
 
 Data type: `Boolean`
 
 Boolean to enable/disable service handling
 
-Default value: ``true``
+Default value: `true`
 
-##### <a name="package_ensure"></a>`package_ensure`
+##### <a name="-mosquitto--package_ensure"></a>`package_ensure`
 
 Data type: `Enum['latest', 'absent', 'present']`
 
@@ -59,7 +59,7 @@ ensure attribute for the package resource
 
 Default value: `'present'`
 
-##### <a name="package_name"></a>`package_name`
+##### <a name="-mosquitto--package_name"></a>`package_name`
 
 Data type: `String[1]`
 
@@ -67,7 +67,7 @@ Name of the Mosquitto package
 
 Default value: `'mosquitto'`
 
-##### <a name="service_ensure"></a>`service_ensure`
+##### <a name="-mosquitto--service_ensure"></a>`service_ensure`
 
 Data type: `Stdlib::Ensure::Service`
 
@@ -75,7 +75,7 @@ the desired state of the service
 
 Default value: `'running'`
 
-##### <a name="service_name"></a>`service_name`
+##### <a name="-mosquitto--service_name"></a>`service_name`
 
 Data type: `String[1]`
 
@@ -83,15 +83,15 @@ Name of the Mosquitto service
 
 Default value: `'mosquitto'`
 
-##### <a name="service_enable"></a>`service_enable`
+##### <a name="-mosquitto--service_enable"></a>`service_enable`
 
 Data type: `Boolean`
 
 wether the service should be in autostart or not
 
-Default value: ``true``
+Default value: `true`
 
-##### <a name="config"></a>`config`
+##### <a name="-mosquitto--config"></a>`config`
 
 Data type: `Array[String[1]]`
 
