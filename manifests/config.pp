@@ -13,7 +13,7 @@ class mosquitto::config (
   case $facts['os']['family'] {
     'FreeBSD': {
       $etc_prefix = '/usr/local/etc'
-      $default_config = ['pid_file /var/run/mosquitto.pid']
+      $default_config = ['pid_file /var/run/mosquitto.pid', 'log_dest syslog']
     }
     default: {
       $etc_prefix = '/etc'
