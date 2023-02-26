@@ -7,9 +7,7 @@ configure_beaker do |host|
   case fact_on(host, 'operatingsystem')
   when 'CentOS'
     host.install_package('epel-release')
-  when 'Ubuntu', 'Debian'
-    host.install_package('iproute2')
-  else
+  when 'Fedora'
     host.install_package('iproute')
   end
 end
