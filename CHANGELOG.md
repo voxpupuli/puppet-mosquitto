@@ -4,6 +4,28 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v2.0.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v2.0.0) (2023-10-20)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v1.2.0...v2.0.0)
+
+**Breaking changes:**
+
+- drop support for fedora 31 & 32 [\#42](https://github.com/voxpupuli/puppet-mosquitto/pull/42) ([jhoblitt](https://github.com/jhoblitt))
+- drop support for debian 9 [\#40](https://github.com/voxpupuli/puppet-mosquitto/pull/40) ([jhoblitt](https://github.com/jhoblitt))
+- drop support for ubuntu 16.04 [\#39](https://github.com/voxpupuli/puppet-mosquitto/pull/39) ([jhoblitt](https://github.com/jhoblitt))
+- Drop Puppet 6 support [\#34](https://github.com/voxpupuli/puppet-mosquitto/pull/34) ([bastelfreak](https://github.com/bastelfreak))
+
+**Implemented enhancements:**
+
+- add support for fedora 37 & 38 [\#41](https://github.com/voxpupuli/puppet-mosquitto/pull/41) ([jhoblitt](https://github.com/jhoblitt))
+- Allow puppet/systemd 5.x and 6.x [\#38](https://github.com/voxpupuli/puppet-mosquitto/pull/38) ([evgeni](https://github.com/evgeni))
+- Add Puppet 8 support [\#37](https://github.com/voxpupuli/puppet-mosquitto/pull/37) ([bastelfreak](https://github.com/bastelfreak))
+- puppetlabs/stdlib: Allow 9.x [\#36](https://github.com/voxpupuli/puppet-mosquitto/pull/36) ([bastelfreak](https://github.com/bastelfreak))
+
+**Fixed bugs:**
+
+- Fix FreeBSD support [\#32](https://github.com/voxpupuli/puppet-mosquitto/pull/32) ([evgeni](https://github.com/evgeni))
+
 ## [v1.2.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v1.2.0) (2023-01-27)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v1.1.0...v1.2.0)
