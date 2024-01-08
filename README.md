@@ -18,7 +18,9 @@
 
 ## Description
 
-This module configures the mosquitto service. The default configuration allows anonymous access. It works simply with:
+This module configures the [Eclipse mosquitto](https://mosquitto.org/) service. This is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol.
+
+The default configuration allows anonymous access. It works simply with:
 
 ```puppet
 include mosquitto
