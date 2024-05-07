@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v2.1.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v2.1.0) (2024-05-07)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v2.0.0...v2.1.0)
+
+**Implemented enhancements:**
+
+- update puppet-systemd upper bound to 8.0.0 [\#54](https://github.com/voxpupuli/puppet-mosquitto/pull/54) ([TheMeier](https://github.com/TheMeier))
+- Add Ubuntu 22.04 support [\#48](https://github.com/voxpupuli/puppet-mosquitto/pull/48) ([evgeni](https://github.com/evgeni))
+- Add Debian 12 support [\#47](https://github.com/voxpupuli/puppet-mosquitto/pull/47) ([evgeni](https://github.com/evgeni))
+- Add EL9 support [\#45](https://github.com/voxpupuli/puppet-mosquitto/pull/45) ([ekohl](https://github.com/ekohl))
+
+**Merged pull requests:**
+
+- Extend Readme to better describe the managed service [\#49](https://github.com/voxpupuli/puppet-mosquitto/pull/49) ([rwaffen](https://github.com/rwaffen))
+
 ## [v2.0.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v2.0.0) (2023-10-20)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v1.2.0...v2.0.0)
