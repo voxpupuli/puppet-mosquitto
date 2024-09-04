@@ -23,6 +23,6 @@ class mosquitto::config (
 
   file { "${etc_prefix}/mosquitto/mosquitto.conf":
     ensure  => bool2str($mosquitto::package_ensure == 'absent', 'absent', 'file'),
-    content => epp("${module_name}/mosquitto.conf", { 'config' => $config + $default_config }),
+    content => epp("${module_name}/mosquitto.conf.epp", { 'config' => $config + $default_config }),
   }
 }
