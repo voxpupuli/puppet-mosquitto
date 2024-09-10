@@ -1,6 +1,6 @@
 {
   "name": "puppet-mosquitto",
-  "version": "2.1.1",
+  "version": "2.1.2-rc0",
   "author": "Vox Pupuli",
   "summary": "installs, configures, and manages the Eclipse Mosquitto daemon",
   "license": "AGPL-3.0",
