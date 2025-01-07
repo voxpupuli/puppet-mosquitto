@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v2.2.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v2.2.0) (2025-01-07)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v2.1.1...v2.2.0)
+
+**Implemented enhancements:**
+
+- puppet/systemd: allow 8.x [\#63](https://github.com/voxpupuli/puppet-mosquitto/pull/63) ([jay7x](https://github.com/jay7x))
+
 ## [v2.1.1](https://github.com/voxpupuli/puppet-mosquitto/tree/v2.1.1) (2024-09-10)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v2.1.0...v2.1.1)
