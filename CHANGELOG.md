@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v3.0.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v3.0.0) (2025-10-13)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v2.2.0...v3.0.0)
+
+**Breaking changes:**
+
+- Drop EoL Ubuntu 18.04/20.04 support [\#82](https://github.com/voxpupuli/puppet-mosquitto/pull/82) ([bastelfreak](https://github.com/bastelfreak))
+- Drop EoL EL7 support [\#81](https://github.com/voxpupuli/puppet-mosquitto/pull/81) ([bastelfreak](https://github.com/bastelfreak))
+- Drop EoL Debian 10 support [\#79](https://github.com/voxpupuli/puppet-mosquitto/pull/79) ([bastelfreak](https://github.com/bastelfreak))
+- Drop puppet, update openvox minimum version to 8.19 [\#71](https://github.com/voxpupuli/puppet-mosquitto/pull/71) ([TheMeier](https://github.com/TheMeier))
+
+**Implemented enhancements:**
+
+- Add Rocky/AlmaLinux/OracleLinux & EL10 support [\#80](https://github.com/voxpupuli/puppet-mosquitto/pull/80) ([bastelfreak](https://github.com/bastelfreak))
+- Add Debian 13 support [\#78](https://github.com/voxpupuli/puppet-mosquitto/pull/78) ([bastelfreak](https://github.com/bastelfreak))
+- Add Ubuntu 24.04 support [\#77](https://github.com/voxpupuli/puppet-mosquitto/pull/77) ([bastelfreak](https://github.com/bastelfreak))
+- puppet/systemd: Allow 9.x [\#75](https://github.com/voxpupuli/puppet-mosquitto/pull/75) ([evgeni](https://github.com/evgeni))
+- metadata.json: Add OpenVox [\#67](https://github.com/voxpupuli/puppet-mosquitto/pull/67) ([jstraw](https://github.com/jstraw))
+
 ## [v2.2.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v2.2.0) (2025-01-07)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v2.1.1...v2.2.0)
