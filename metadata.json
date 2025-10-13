@@ -44,6 +44,30 @@
       ]
     },
     {
+      "operatingsystem": "Rocky",
+      "operatingsystemrelease": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "AlmaLinux",
+      "operatingsystemrelease": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "operatingsystem": "OracleLinux",
+      "operatingsystemrelease": [
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
       "operatingsystem": "Fedora",
       "operatingsystemrelease": [
         "37",
