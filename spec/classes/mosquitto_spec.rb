@@ -41,7 +41,7 @@ describe 'mosquitto' do
           {
             package_ensure: 'absent',
             service_ensure: 'stopped',
-            service_enable: false
+            service_enable: false,
           }
         end
 
