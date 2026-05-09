@@ -95,6 +95,9 @@
         "11",
         "12"
       ]
+    },
+    {
+      "operatingsystem": "OpenBSD"
     }
   ],
   "requirements": [
