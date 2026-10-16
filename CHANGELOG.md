@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v3.1.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v3.1.0) (2026-10-16)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v3.0.0...v3.1.0)
+
+**Implemented enhancements:**
+
+- puppetlabs/stdlib: Allow 10.x & puppet/systemd: Allow 10.x [\#91](https://github.com/voxpupuli/puppet-mosquitto/pull/91) ([bastelfreak](https://github.com/bastelfreak))
+- Update requirements to allow OpenVox 9 [\#90](https://github.com/voxpupuli/puppet-mosquitto/pull/90) ([sebastianrakel](https://github.com/sebastianrakel))
+
 ## [v3.0.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v3.0.0) (2025-10-13)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v2.2.0...v3.0.0)
