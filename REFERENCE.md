@@ -98,4 +98,3 @@ Data type: `Array[String[1]]`
 list of config options for Mosquitto
 
 Default value: `[]`
-
