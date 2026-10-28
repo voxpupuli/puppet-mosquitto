@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v3.2.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v3.2.0) (2026-10-28)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v3.1.0...v3.2.0)
+
+**Implemented enhancements:**
+
+- puppet/systemd: Allow 11.x [\#93](https://github.com/voxpupuli/puppet-mosquitto/pull/93) ([bastelfreak](https://github.com/bastelfreak))
+
 ## [v3.1.0](https://github.com/voxpupuli/puppet-mosquitto/tree/v3.1.0) (2026-10-16)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-mosquitto/compare/v3.0.0...v3.1.0)
